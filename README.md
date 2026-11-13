@@ -1,4 +1,4 @@
-## Birth Tarot Card Calculator-
+## Birth Tarot Card Calculator
 Find your birth tarot card by adding up the digits of your birth date. Built with HTML, C programming, CSS and JavaScript.
 
 ## How it works
