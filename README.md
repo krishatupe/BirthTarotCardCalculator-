@@ -8,28 +8,39 @@ Add up every digit of your birth date. If the total is above 22, add its digits 
 
 Example: 15/08/2006 → 1+5+0+8+2+0+0+6 = 22 → The Fool
 
+## Status
+
+- **C version:** working. Enter day, month and year, and it prints your card with a short description. All 22 cards are included.
+- **Web version:** in progress. The page has a date picker and a button, and I've yet to connect the calculation.
+
 ## Built with
 
-- HTML, CSS and JavaScript (web version)
 - C (command-line version)
+- HTML, CSS and JavaScript (web version)
+
+## Run the C version
+
+```
+gcc birthTarotCard.c -o birthTarotCard
+./birthTarotCard
+```
+
+Enter the date as day, month, year with spaces, e.g. `15 8 2006`.
 
 ## Files
 
+- `birthTarotCard.c`: C version
 - `index.html`: page structure
 - `style.css`: colors, fonts and layout
-- `script.js`: reads the date and works out the card
-- `birthTarotCard.c`: C version
+- `script.js`: reads the date (card calculation coming next)
 - `Notes.md`: my notes while building
-
-## Status
-
-[Write one honest line, e.g. "Web version works. C version in progress."]
 
 ## What I learned
 
-- [one thing about digit sums or loops]
-- [one mistake you made and how you fixed it]
+- Adding up digits with `% 10` and `/ 10` in a loop
+- Repeating the sum until the total is 22 or less
+- Treating 22 as 0 so The Fool lands at the start of the card list
 
 ## About
 
-A first-year CSE (AI/ML) student project to learn web development and C.
+A first-year CSE (AI/ML) student project to learn C and web development.
