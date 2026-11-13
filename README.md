@@ -10,7 +10,7 @@ Example: 15/08/2006 → 1+5+0+8+2+0+0+6 = 22 → The Fool
 ## Built with
 
 - HTML, CSS and JavaScript (web version)
-- C (command-line version, coming soon)
+- C (command-line version)
 
 ## Status
 
@@ -21,7 +21,7 @@ Work in progress. The page has a date picker and a button, and I'm building the 
 - `index.html`: page structure
 - `style.css`: colors, fonts and layout
 - `script.js`: reads the date and works out the card
-- `c-version/`: C program (coming soon)
+- `c-version/`: C program 
 
 ## About
 
