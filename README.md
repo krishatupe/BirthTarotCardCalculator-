@@ -1,5 +1,6 @@
-## Birth Tarot Card Calculator
-Find your birth tarot card by adding up the digits of your birth date. Built with HTML, C programming, CSS and JavaScript.
+# Birth Tarot Card Calculator
+
+Find your birth tarot card by adding up the digits of your birth date.
 
 ## How it works
 
@@ -12,16 +13,22 @@ Example: 15/08/2006 → 1+5+0+8+2+0+0+6 = 22 → The Fool
 - HTML, CSS and JavaScript (web version)
 - C (command-line version)
 
-## Status
-
-Work in progress. The page has a date picker and a button, and I'm building the card calculation next.
-
 ## Files
 
 - `index.html`: page structure
 - `style.css`: colors, fonts and layout
 - `script.js`: reads the date and works out the card
-- `c-version/`: C program 
+- `birthTarotCard.c`: C version
+- `Notes.md`: my notes while building
+
+## Status
+
+[Write one honest line, e.g. "Web version works. C version in progress."]
+
+## What I learned
+
+- [one thing about digit sums or loops]
+- [one mistake you made and how you fixed it]
 
 ## About
 
