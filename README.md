@@ -33,7 +33,7 @@ Enter the date as day, month, year with spaces, e.g. `15 8 2006`.
 - `index.html`: page structure
 - `style.css`: colors, fonts and layout
 - `script.js`: reads the date (card calculation coming next)
-- `Notes.md`: my notes while building
+- `Notes.md` `CProgramNotes.md : my notes while building
 
 ## What I learned
 
